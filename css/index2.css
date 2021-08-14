@@ -1,0 +1,118 @@
+
+/* Service page */
+.Service
+{
+	margin: 0;
+	background: #bbb;
+	padding: 20px 15px;
+	border-top: 40px solid #111;
+}
+#serviceBod
+{
+	position: relative;
+}
+.Service>div>h1
+{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+.web_design
+{
+	text-align: center;
+	background-color: white;
+	border:1px solid #bbb;
+	margin: 5px;
+	padding: 10px;
+	height: 250px;
+	border-radius: 6px;
+}
+.web_design:hover
+{
+	box-shadow: 1px 2px 3px 2px #999;
+}
+
+.web_design>h3
+{
+	color: #3366ff;
+}
+
+.service_img
+{
+	width: 100px;
+	border-radius: 50%;
+	height: 100px;
+}
+
+
+/* responsive
+for tablets and mobile phones */
+
+@media only screen and (max-width: 840px) {
+  .navigation>ul
+  {
+  	display: none;
+  }
+  .toggleButton
+  {
+  	display: block;
+  }
+  .about,
+  .experiance,
+  .our_team,
+  .Service,
+  .contact,
+  .blogs
+  {
+  	border-top: none;
+  	padding-top: 6px;
+  }
+  
+}
+/*  */
+@media only screen and (max-width: 600px) {
+/*service*/
+	.Service>div>.container>.row>.col-xs-6,
+    .gallary>.container-fluid>.row>.col-md-3
+
+	{
+		width: 100%;
+	}
+	
+
+
+
+}
+@media only screen and (max-width: 1150px) {
+	.Skills>.container-fluid>.row>.col-md-4
+	{
+		display: none;
+	}
+	.Skills>.container-fluid>.row>.col-md-8
+	{
+		width: 100%;
+	}
+}
+
+/* tabletes*/
+@media only screen and (max-width: 992px) {
+	
+
+	.web_design
+	{
+		text-align: center;
+		background-color: white;
+		border:1px solid #bbb;
+		margin: 5px;
+		padding: 10px;
+		height: 330px;
+		width: 200;
+		
+		border-radius: 6px;
+	}
+ 
+
+ 
+
+ 
+}
